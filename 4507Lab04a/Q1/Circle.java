@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Circle extends Shape{
     private int radius;
-    private Point point = new Point();
+    private Point point;
 
     public Circle(int radius, Point topLeft) {
         super("Circle", topLeft);

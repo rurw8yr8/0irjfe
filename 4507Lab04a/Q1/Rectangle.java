@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Rectangle extends Shape {
     private int width;
     private int height;
-    private Point point = new Point();
+    private Point point;
 
     public Rectangle(int width, int height, Point topLeft) {
         super("Rectangle", topLeft);

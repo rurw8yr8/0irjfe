@@ -20,7 +20,7 @@ public class Point {
         return y;
     }
 
-    public Point createPoint(Scanner sc){
+    public static Point createPoint(Scanner sc){
         System.out.println("Enter x: ");
         int x = sc.nextInt();
         System.out.println("Enter y: ");
