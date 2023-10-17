@@ -1,3 +1,4 @@
+
 public class ClientShape {
 
     public static void doAction(Shape s) {
